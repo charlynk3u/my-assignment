@@ -1,0 +1,9 @@
+{
+    "countries": ["United States", "United Kingdom", "Australia", "Ireland"],
+    "notIncludedCountries": ["Slovakia", "Poland", "Papua New Guinea"],
+    "categories": ["Professional Services", "Sales & Marketing"],
+    "notIncludedCategories": ["Fishing", "Driving"],
+    "selectCountry": "Ireland",
+    "careersPage": "https://www.amcsgroup.com/careers/#",
+    "careersPage1": "https://www.amcsgroup.com/careers/"
+}

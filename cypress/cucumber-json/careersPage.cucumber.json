@@ -1,0 +1,133 @@
+[
+  {
+    "description": "    This feature contains scenarios to test task D, E, F in the careers page",
+    "keyword": "Feature",
+    "name": "This feature is for task D, E, F",
+    "line": 1,
+    "id": "this-feature-is-for-task-d,-e,-f",
+    "tags": [],
+    "uri": "careersPage.feature",
+    "elements": [
+      {
+        "id": "this-feature-is-for-task-d,-e,-f;task-d:-verify-countries-filter-values",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Task D: Verify countries filter values",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I navigate to AMCS careers page",
+            "result": {
+              "status": "passed",
+              "duration": 12698000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "Verify included Countries filter",
+            "result": {
+              "status": "passed",
+              "duration": 161000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "Verify not included Countries filter",
+            "result": {
+              "status": "passed",
+              "duration": 100000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "this-feature-is-for-task-d,-e,-f;task-e:-verify-categories-filter-values",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Task E: Verify categories filter values",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "I navigate to AMCS careers page",
+            "result": {
+              "status": "passed",
+              "duration": 4569000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "Verify included Categories filter",
+            "result": {
+              "status": "passed",
+              "duration": 59000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "Verify not included Categories filter",
+            "result": {
+              "status": "passed",
+              "duration": 51000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "this-feature-is-for-task-d,-e,-f;task-f:-verify-careers-link-when-clicked",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Task F: Verify careers link when clicked",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 16,
+            "name": "I navigate to AMCS careers page",
+            "result": {
+              "status": "passed",
+              "duration": 2054000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "I click on Ireland in the countries filter",
+            "result": {
+              "status": "passed",
+              "duration": 190000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "Verify filter is appended to the URL",
+            "result": {
+              "status": "passed",
+              "duration": 13000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

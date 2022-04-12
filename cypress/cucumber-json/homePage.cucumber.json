@@ -1,0 +1,143 @@
+[
+  {
+    "description": "    This feature contains scenarios to validate the homepage",
+    "keyword": "Feature",
+    "name": "This feature is for task A, B, C",
+    "line": 1,
+    "id": "this-feature-is-for-task-a,-b,-c",
+    "tags": [],
+    "uri": "homePage.feature",
+    "elements": [
+      {
+        "id": "this-feature-is-for-task-a,-b,-c;task-a:-verify-languages-found-in-the-language-dropdown",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Task A: Verify languages found in the language dropdown",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I navigate to AMCS homepage",
+            "result": {
+              "status": "passed",
+              "duration": 5888000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I click on English or any predefined language",
+            "result": {
+              "status": "passed",
+              "duration": 311000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "Verify included languages in the dropdown options",
+            "result": {
+              "status": "passed",
+              "duration": 99000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "this-feature-is-for-task-a,-b,-c;task-b:-verify-languages-not-found-in-the-language-dropdown",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Task B: Verify languages not found in the language dropdown",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "I navigate to AMCS homepage",
+            "result": {
+              "status": "passed",
+              "duration": 2537000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "I click on English or any predefined language",
+            "result": {
+              "status": "passed",
+              "duration": 633000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Verify not included languages in the dropdown options",
+            "result": {
+              "status": "passed",
+              "duration": 81000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "this-feature-is-for-task-a,-b,-c;task-c:-verify-careers-link-when-clicked",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Task C: Verify careers link when clicked",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 16,
+            "name": "I navigate to AMCS homepage",
+            "result": {
+              "status": "passed",
+              "duration": 1492000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "I scroll to the bottom of the page",
+            "result": {
+              "status": "passed",
+              "duration": 10000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "I click on the Careers link",
+            "result": {
+              "status": "passed",
+              "duration": 1685000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "Verify that I am redirected to the careers link",
+            "result": {
+              "status": "passed",
+              "duration": 11000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

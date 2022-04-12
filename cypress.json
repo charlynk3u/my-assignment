@@ -1,0 +1,9 @@
+{
+    "env": {
+        "url": "https://www.amcsgroup.com/"
+    },
+    "chromeWebSecurity":false,
+    "defaultCommandTimeout":40000,
+    "pageLoadTimeout":100000,
+    "testFiles": ["**/*.feature", "**/*.spec.js"]
+}
